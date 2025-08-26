@@ -1,7 +1,6 @@
 
 .chat-app-bg {
-	min-height: 100vh;
-	width: 100vw;
+	flex: 1;
 	display: flex;
 	flex-direction: column;
 	background: linear-gradient(135deg, #e0e7ff 0%, #fff 100%);
