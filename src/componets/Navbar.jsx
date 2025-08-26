@@ -10,7 +10,7 @@ const Navbar = () => (
             <Link style={{ color: '#fff', textDecoration: 'none' }} to="/games">Games</Link>
             <Link style={{ color: '#fff', textDecoration: 'none' }} to="/apps">Apps</Link>
             <Link style={{ color: '#fff', textDecoration: 'none' }} to="/chat">Chat</Link>
-            <Link style={{ color: '#fff', textDecoration: 'none' }} to="/projects">Projects</Link>
+            <Link style={{ color: '#fff', textDecoration: 'none' }} to="/projects">Achievement</Link>
         </div>
     </nav>
 );
