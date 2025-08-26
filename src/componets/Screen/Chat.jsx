@@ -78,7 +78,7 @@ export default function Chat() {
         </div>
       </div>
       <div className="chat-app-footer">
-        &copy; {new Date().getFullYear()} Chat App
+        Design by Abhishek @ {new Date().getFullYear()}  | Powered by Gemini Magice 
       </div>
     </div>
   );

@@ -3,19 +3,13 @@ import React, { useState, useRef, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './componets/Navbar';
 import './App.css';
-import  Projects  from './componets/Screen/Projects';
+import Achievement from './componets/Screen/Achievement';
 import Chat from './componets/Screen/Chat';
+import Games from './componets/Screen/Games';
+import Apps from './componets/Screen/Apps';
 
 function Abhi() {
   return <h1>Abhi</h1>;
-}
-
-function Games() {
-  return <h1>Games</h1>;
-}
-
-function Apps() {
-  return <h1>Apps</h1>;
 }
 
 function App() {
@@ -29,7 +23,7 @@ function App() {
             <Route path="/games" element={<Games />} />
             <Route path="/apps" element={<Apps />} />
             <Route path="/chat" element={<Chat />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects" element={<Achievement />} />
           </Routes>
         </div>
       </div>
