@@ -1,0 +1,48 @@
+.flash-list {
+  padding: 1rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  max-width: 600px;
+  margin: 2rem auto;
+}
+.flash-list-header {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+.flash-list-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.flash-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #eee;
+}
+.flash-list-item:last-child {
+  border-bottom: none;
+}
+.flash-list-img {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #f0f0f0;
+}
+.flash-list-content {
+  flex: 1;
+}
+.flash-list-title {
+  font-size: 1.2rem;
+  margin: 0 0 0.3rem 0;
+  color: #222;
+}
+.flash-list-text {
+  margin: 0;
+  color: #555;
+}
